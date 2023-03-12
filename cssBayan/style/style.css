@@ -57,6 +57,7 @@
 
 .accordion__button {
   width: 1rem;
+  height: 1rem;
   transition: 0.4s linear;
 }
 
@@ -125,6 +126,7 @@
 
   .accordion__button {
     width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -137,6 +139,7 @@
   .accordion__button {
     opacity: 0;
     width: 2rem;
+    height: 2rem;
   }
 
   .accordion__image {
