@@ -106,14 +106,6 @@
   text-decoration: none;
 }
 
-.link-opacity {
-  transition: color 0.5s ease-out;
-}
-
-.link-opacity:hover {
-  color: rgba(2, 3, 77, 0.5);
-}
-
 @media (min-width: 820px) {
   .wrapper {
     font-size: 1.5rem;
@@ -137,13 +129,24 @@
   }
 
   .accordion__button {
-    opacity: 0;
     width: 2rem;
     height: 2rem;
   }
 
   .accordion__image {
     width: 60%;
+  }
+  
+  .link-opacity {
+    transition: color 0.5s ease-out;
+  }
+}
+
+@media (hover: hover) {
+  .accordion,
+  .accordion__input,
+  .accordion__label {
+    cursor: pointer;
   }
 
   .accordion:hover .accordion__label {
@@ -154,6 +157,10 @@
     transform: rotate(90deg);
   }
 
+  .accordion__button {
+    opacity: 0;
+  }
+  
   .accordion:hover .accordion__button {
     opacity: 1;
   }
@@ -170,9 +177,7 @@
     color: blue;
   }
 
-  .accordion,
-  .accordion__input,
-  .accordion__label {
-    cursor: pointer;
+  .link-opacity:hover {
+    color: rgba(2, 3, 77, 0.5);
   }
 }
