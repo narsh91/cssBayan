@@ -88,7 +88,7 @@
 }
 
 .footer {
-  padding-top: 20px;
+  padding-top: 1.2rem;
 }
 
 .footer__logo-link {
@@ -160,7 +160,7 @@
   .accordion__button {
     opacity: 0;
   }
-  
+
   .accordion:hover .accordion__button {
     opacity: 1;
   }
